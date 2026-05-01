@@ -19,4 +19,6 @@
  body{
    padding: 0 16px;
  }
- 
+ ol li{
+   list-style-position: inside;
+ }
