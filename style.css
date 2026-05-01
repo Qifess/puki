@@ -2,6 +2,7 @@
     color: #c4c4c4;
  }
  ol{
+   -webkit-padding-left: 20px;
     padding-left: 20px;
     border-left: 1px solid rgb(0, 0, 0);
     color:red;
@@ -18,3 +19,4 @@
  body{
    padding: 0 16px;
  }
+ 
