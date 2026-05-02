@@ -6,6 +6,7 @@
     padding-left: 20px;
     border-left: 1px solid rgb(0, 0, 0);
     color:red;
+    text-align: center;
  }
  .danger-text{
     font-size: 15px;
@@ -21,4 +22,21 @@
  }
  ol li{
    list-style-position: inside;
+ }
+ figure {
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ figcaption{
+   text-align: center;
+   width: 700px;
+   border: 5px solid lightblue;
+   font-style: italic;
+   background-color: lightblue;
+   
+ }
+ figure img{
+   vertical-align: middle;
+   border: 5px solid lightblue;
  }
