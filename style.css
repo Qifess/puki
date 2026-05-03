@@ -27,23 +27,26 @@
  ol li{
    list-style-position: inside;
  }
- /*figure {
+ figure {
    display: flex;
-  justify-content: center;
-  align-items: center;
-}*/ 
+   flex-direction: column; 
+   align-items: center;    
+   text-align: center; 
+   margin: 0 auto;
+   max-width: fit-content;
+   border: 5px solid lightblue;
+   background-color: lightblue;
+   border-radius: 15px;
+   margin-bottom: 15px;
+} 
 
  figcaption{
    text-align: center;
-   width: 700px;
-   border: 5px solid lightblue;
    font-style: italic;
-   background-color: lightblue;
-   
  }
  figure img{
    vertical-align: middle;
-   border: 5px solid lightblue;
+   border-radius: 15px;
  }
  html, body{
    scroll-behavior: smooth;
