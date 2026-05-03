@@ -5,6 +5,8 @@
    -webkit-padding-start: 20px;
     padding-left: 20px;
     border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    padding-right: 20px;
     color:red;
     width: max-content;
     margin: 0 auto;
@@ -45,8 +47,9 @@
  html, body{
    scroll-behavior: smooth;
  }
- div img{
+ div{
+  width: max-content;
   margin: 0 auto;
   max-width: 100%;
-  height: auto;
+
  }
