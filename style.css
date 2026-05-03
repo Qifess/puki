@@ -47,9 +47,22 @@
  html, body{
    scroll-behavior: smooth;
  }
- img{
+ .imgtipa{
   width: max-content;
   margin: 0 auto;
   max-width: 100%;
 
  }
+ table{
+  border-collapse: collapse;
+  border: 2px solid black;
+  background-color: violet;
+ }
+ th{
+  padding: 10px;
+  border: 1px solid black;
+ }
+ caption{
+  text-align: center;
+ }
+ 
