@@ -45,3 +45,6 @@
  html, body{
    scroll-behavior: smooth;
  }
+ div{
+  max-width: 100%;
+ }
