@@ -27,11 +27,12 @@
  ol li{
    list-style-position: inside;
  }
- figure {
+ /*figure {
    display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
+}*/ 
+
  figcaption{
    text-align: center;
    width: 700px;
@@ -47,12 +48,7 @@
  html, body{
    scroll-behavior: smooth;
  }
- .imgtipa{
-  width: max-content;
-  margin: 0 auto;
-  max-width: 100%;
-
- }
+ 
  table{
   border-collapse: collapse;
   border: 2px solid black;
@@ -65,4 +61,9 @@
  caption{
   text-align: center;
  }
- 
+img, figcaption{
+  max-width: 100%; 
+  height: auto;    
+  display: block;  
+  margin: 0 auto;
+}
